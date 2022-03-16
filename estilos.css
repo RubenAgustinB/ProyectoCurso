@@ -6,6 +6,29 @@ video{
     height: 200px;
     padding-top: 0px;
 }
-.botonPlay:hover{
-    text-shadow: 500px;
+.contenedorB{
+    display:flex;
+    align-items: center;
+    width: 300px;
+}
+.botonPlay{
+    background-color: transparent;
+    flex-grow: 1;
+    border-color: transparent;
+    
+}
+.botonPause{
+    background-color: transparent;
+    flex-grow: 1;
+}
+.botonPlay:active{
+    border-left-color: black;
+    border-top-color: black;
+    
+}     
+.IconoPlay{
+    height: 35px;
+}
+.IconoPause{
+    height: 35px;
 }
