@@ -1,29 +1,55 @@
 .BannerP{
     background-color: lightseagreen;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 100px;
+
 }
-.titulo{
-    text-align: center;
+h1{
+   flex-grow: 2;
+   text-align: center;
+}
+body{
+    width: 100%;
+    margin: 0%;;
+    background-color: lightseagreen;
 }
 .Contenedor1{
+    padding: 0p;
     display: flex;
     justify-content: center;
     background-image:url(./toto.jpeg);
     background-position: center center;
     background-attachment: fixed;
+    /*background-size: cover;*/
     height: 400px;
-    width: 100%;
+    /*width: 100%;*/
     align-items: center;
+    
     
     
 }
 
 .texto1{
-    color:whitesmoke;
+    color:rebeccapurple;
     font-size: xx-large;
-
+    background-color: aliceblue;
 }
 
 .Contenedor2{
     width: 100%;
     background-color: lightseagreen;
+}
+.boton{
+    height: 50%;
+    width: 100px;
+    border-radius: 25%;
+    margin: 10px;
+}
+.Botinicio{
+   background-color: transparent;
+   border: transparent;
+   width: 100px;
+   height: 50%;
 }
