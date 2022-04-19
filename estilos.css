@@ -6,9 +6,10 @@ header{
     height: 100px;
 }
 h1{
-
-   flex-grow: 1;
-   text-align: center;
+    color: rgb(0, 0, 0);
+    flex-grow: 1;
+    text-align: center;
+    text-shadow: 2px 2px rgb(216, 105, 65);
 }
 body{
     width: 100%;
@@ -39,6 +40,7 @@ footer{
     color:black;
     font-size: xx-large;
     background-color: aliceblue;
+    text-shadow: 1px 1px grey;
 }
 
 .Contenedor2{
@@ -70,11 +72,13 @@ footer{
    height: 100px;
 }
 .Contenedor2{
-   margin-bottom: 50px; 
-   background-color: coral;
+     margin-bottom: 20px;
+     background-color: coral;
+    padding-bottom: 50px ;
 }
 h2{
     text-align: center;
+    text-shadow:2px 2px rgb(216, 105, 65); ;
 }
 .text-presentacion{
     background-color: antiquewhite;
@@ -93,4 +97,26 @@ h2{
 #p1{
     padding: 20px;
 }
-
+.cards{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-around;
+}
+.card{
+    background-color: darkseagreen;
+    width: 300px;
+    height: 300px;
+    border-radius: 15%;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-style: 'Franklin Gothic Medium';
+    
+}
+.imagencard{
+    width: 300px;
+    height: 200px;
+    border-top-left-radius: 15%;
+    border-top-right-radius: 15%;
+}
